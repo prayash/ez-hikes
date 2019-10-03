@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED8E0F48234678DC00BF79DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8E0F47234678DC00BF79DA /* AppDelegate.swift */; };
+		ED8E0F4A234678DC00BF79DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8E0F49234678DC00BF79DA /* SceneDelegate.swift */; };
+		ED8E0F4C234678DC00BF79DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8E0F4B234678DC00BF79DA /* ContentView.swift */; };
+		ED8E0F4E234678DE00BF79DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8E0F4D234678DE00BF79DA /* Assets.xcassets */; };
+		ED8E0F51234678DE00BF79DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8E0F50234678DE00BF79DA /* Preview Assets.xcassets */; };
+		ED8E0F54234678DE00BF79DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8E0F52234678DE00BF79DA /* LaunchScreen.storyboard */; };
+		ED8E0F5F234678DE00BF79DA /* EZ_HikesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8E0F5E234678DE00BF79DA /* EZ_HikesTests.swift */; };
+		ED8E0F6A234678DE00BF79DA /* EZ_HikesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8E0F69234678DE00BF79DA /* EZ_HikesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED8E0F5B234678DE00BF79DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8E0F3C234678DC00BF79DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8E0F43234678DC00BF79DA;
+			remoteInfo = "EZ Hikes";
+		};
+		ED8E0F66234678DE00BF79DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8E0F3C234678DC00BF79DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8E0F43234678DC00BF79DA;
+			remoteInfo = "EZ Hikes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED8E0F44234678DC00BF79DA /* EZ Hikes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EZ Hikes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8E0F47234678DC00BF79DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED8E0F49234678DC00BF79DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED8E0F4B234678DC00BF79DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED8E0F4D234678DE00BF79DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED8E0F50234678DE00BF79DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED8E0F53234678DE00BF79DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED8E0F55234678DE00BF79DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8E0F5A234678DE00BF79DA /* EZ HikesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EZ HikesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8E0F5E234678DE00BF79DA /* EZ_HikesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZ_HikesTests.swift; sourceTree = "<group>"; };
+		ED8E0F60234678DE00BF79DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8E0F65234678DE00BF79DA /* EZ HikesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EZ HikesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8E0F69234678DE00BF79DA /* EZ_HikesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZ_HikesUITests.swift; sourceTree = "<group>"; };
+		ED8E0F6B234678DE00BF79DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8E0F41234678DC00BF79DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8E0F57234678DE00BF79DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8E0F62234678DE00BF79DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED8E0F3B234678DC00BF79DA = {
+			isa = PBXGroup;
+			children = (
+				ED8E0F46234678DC00BF79DA /* EZ Hikes */,
+				ED8E0F5D234678DE00BF79DA /* EZ HikesTests */,
+				ED8E0F68234678DE00BF79DA /* EZ HikesUITests */,
+				ED8E0F45234678DC00BF79DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8E0F45234678DC00BF79DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8E0F44234678DC00BF79DA /* EZ Hikes.app */,
+				ED8E0F5A234678DE00BF79DA /* EZ HikesTests.xctest */,
+				ED8E0F65234678DE00BF79DA /* EZ HikesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8E0F46234678DC00BF79DA /* EZ Hikes */ = {
+			isa = PBXGroup;
+			children = (
+				ED8E0F47234678DC00BF79DA /* AppDelegate.swift */,
+				ED8E0F49234678DC00BF79DA /* SceneDelegate.swift */,
+				ED8E0F4B234678DC00BF79DA /* ContentView.swift */,
+				ED8E0F4D234678DE00BF79DA /* Assets.xcassets */,
+				ED8E0F52234678DE00BF79DA /* LaunchScreen.storyboard */,
+				ED8E0F55234678DE00BF79DA /* Info.plist */,
+				ED8E0F4F234678DE00BF79DA /* Preview Content */,
+			);
+			path = "EZ Hikes";
+			sourceTree = "<group>";
+		};
+		ED8E0F4F234678DE00BF79DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED8E0F50234678DE00BF79DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED8E0F5D234678DE00BF79DA /* EZ HikesTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8E0F5E234678DE00BF79DA /* EZ_HikesTests.swift */,
+				ED8E0F60234678DE00BF79DA /* Info.plist */,
+			);
+			path = "EZ HikesTests";
+			sourceTree = "<group>";
+		};
+		ED8E0F68234678DE00BF79DA /* EZ HikesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8E0F69234678DE00BF79DA /* EZ_HikesUITests.swift */,
+				ED8E0F6B234678DE00BF79DA /* Info.plist */,
+			);
+			path = "EZ HikesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8E0F43234678DC00BF79DA /* EZ Hikes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8E0F6E234678DE00BF79DA /* Build configuration list for PBXNativeTarget "EZ Hikes" */;
+			buildPhases = (
+				ED8E0F40234678DC00BF79DA /* Sources */,
+				ED8E0F41234678DC00BF79DA /* Frameworks */,
+				ED8E0F42234678DC00BF79DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EZ Hikes";
+			productName = "EZ Hikes";
+			productReference = ED8E0F44234678DC00BF79DA /* EZ Hikes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED8E0F59234678DE00BF79DA /* EZ HikesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8E0F71234678DE00BF79DA /* Build configuration list for PBXNativeTarget "EZ HikesTests" */;
+			buildPhases = (
+				ED8E0F56234678DE00BF79DA /* Sources */,
+				ED8E0F57234678DE00BF79DA /* Frameworks */,
+				ED8E0F58234678DE00BF79DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8E0F5C234678DE00BF79DA /* PBXTargetDependency */,
+			);
+			name = "EZ HikesTests";
+			productName = "EZ HikesTests";
+			productReference = ED8E0F5A234678DE00BF79DA /* EZ HikesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED8E0F64234678DE00BF79DA /* EZ HikesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8E0F74234678DE00BF79DA /* Build configuration list for PBXNativeTarget "EZ HikesUITests" */;
+			buildPhases = (
+				ED8E0F61234678DE00BF79DA /* Sources */,
+				ED8E0F62234678DE00BF79DA /* Frameworks */,
+				ED8E0F63234678DE00BF79DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8E0F67234678DE00BF79DA /* PBXTargetDependency */,
+			);
+			name = "EZ HikesUITests";
+			productName = "EZ HikesUITests";
+			productReference = ED8E0F65234678DE00BF79DA /* EZ HikesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8E0F3C234678DC00BF79DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Viget;
+				TargetAttributes = {
+					ED8E0F43234678DC00BF79DA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					ED8E0F59234678DE00BF79DA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = ED8E0F43234678DC00BF79DA;
+					};
+					ED8E0F64234678DE00BF79DA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = ED8E0F43234678DC00BF79DA;
+					};
+				};
+			};
+			buildConfigurationList = ED8E0F3F234678DC00BF79DA /* Build configuration list for PBXProject "EZ Hikes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED8E0F3B234678DC00BF79DA;
+			productRefGroup = ED8E0F45234678DC00BF79DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8E0F43234678DC00BF79DA /* EZ Hikes */,
+				ED8E0F59234678DE00BF79DA /* EZ HikesTests */,
+				ED8E0F64234678DE00BF79DA /* EZ HikesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8E0F42234678DC00BF79DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8E0F54234678DE00BF79DA /* LaunchScreen.storyboard in Resources */,
+				ED8E0F51234678DE00BF79DA /* Preview Assets.xcassets in Resources */,
+				ED8E0F4E234678DE00BF79DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8E0F58234678DE00BF79DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8E0F63234678DE00BF79DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8E0F40234678DC00BF79DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8E0F48234678DC00BF79DA /* AppDelegate.swift in Sources */,
+				ED8E0F4A234678DC00BF79DA /* SceneDelegate.swift in Sources */,
+				ED8E0F4C234678DC00BF79DA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8E0F56234678DE00BF79DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8E0F5F234678DE00BF79DA /* EZ_HikesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8E0F61234678DE00BF79DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8E0F6A234678DE00BF79DA /* EZ_HikesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED8E0F5C234678DE00BF79DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8E0F43234678DC00BF79DA /* EZ Hikes */;
+			targetProxy = ED8E0F5B234678DE00BF79DA /* PBXContainerItemProxy */;
+		};
+		ED8E0F67234678DE00BF79DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8E0F43234678DC00BF79DA /* EZ Hikes */;
+			targetProxy = ED8E0F66234678DE00BF79DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED8E0F52234678DE00BF79DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8E0F53234678DE00BF79DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED8E0F6C234678DE00BF79DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED8E0F6D234678DE00BF79DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED8E0F6F234678DE00BF79DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EZ Hikes/Preview Content\"";
+				DEVELOPMENT_TEAM = JZNN87YRMJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "EZ Hikes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viget.EZ-Hikes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8E0F70234678DE00BF79DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EZ Hikes/Preview Content\"";
+				DEVELOPMENT_TEAM = JZNN87YRMJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "EZ Hikes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viget.EZ-Hikes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED8E0F72234678DE00BF79DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZNN87YRMJ;
+				INFOPLIST_FILE = "EZ HikesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viget.EZ-HikesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZ Hikes.app/EZ Hikes";
+			};
+			name = Debug;
+		};
+		ED8E0F73234678DE00BF79DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZNN87YRMJ;
+				INFOPLIST_FILE = "EZ HikesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viget.EZ-HikesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZ Hikes.app/EZ Hikes";
+			};
+			name = Release;
+		};
+		ED8E0F75234678DE00BF79DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZNN87YRMJ;
+				INFOPLIST_FILE = "EZ HikesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viget.EZ-HikesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EZ Hikes";
+			};
+			name = Debug;
+		};
+		ED8E0F76234678DE00BF79DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZNN87YRMJ;
+				INFOPLIST_FILE = "EZ HikesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viget.EZ-HikesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EZ Hikes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8E0F3F234678DC00BF79DA /* Build configuration list for PBXProject "EZ Hikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8E0F6C234678DE00BF79DA /* Debug */,
+				ED8E0F6D234678DE00BF79DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8E0F6E234678DE00BF79DA /* Build configuration list for PBXNativeTarget "EZ Hikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8E0F6F234678DE00BF79DA /* Debug */,
+				ED8E0F70234678DE00BF79DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8E0F71234678DE00BF79DA /* Build configuration list for PBXNativeTarget "EZ HikesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8E0F72234678DE00BF79DA /* Debug */,
+				ED8E0F73234678DE00BF79DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8E0F74234678DE00BF79DA /* Build configuration list for PBXNativeTarget "EZ HikesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8E0F75234678DE00BF79DA /* Debug */,
+				ED8E0F76234678DE00BF79DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED8E0F3C234678DC00BF79DA /* Project object */;
+}
