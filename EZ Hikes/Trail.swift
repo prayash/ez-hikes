@@ -21,6 +21,10 @@ public struct Trail: Codable, Identifiable {
     let longitude, latitude: Double
     let conditionStatus, conditionDate: String
     let conditionDetails: String?
+
+    var lengthInMiles: String {
+        return String(format: "%.1f miles", self.length)
+    }
 }
 
 // MARK: - TrailsPayload
