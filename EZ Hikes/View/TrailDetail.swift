@@ -18,7 +18,7 @@ struct TrailDetail: View {
             Text(title)
                 .font(.largeTitle)
                 .fontWeight(.heavy)
-            URLImage(url: image, width: 400, height: 400)
+            URLImage(withURL: image, width: 400, height: 200)
             Text(text)
                 .lineLimit(nil)
                 .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)

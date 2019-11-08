@@ -11,27 +11,20 @@ import Combine
 
 class ImageLoader: ObservableObject {
 
-    @Published var image: UIImage?
+    @Published var isValid = false
+    var data: Data?
 
-    func load(url: String) {
-        guard let imageUrl = URL(string: url) else {
-            fatalError("imageURL is not defined.")
-        }
+    init(url: String) {
+        guard let imageUrl = URL(string: url) else { return }
 
         URLSession.shared.dataTask(with: imageUrl) { (data, response, error) in
-            guard let data = data, error == nil else {
-                DispatchQueue.main.async {
-                    self.image = nil
-                }
-
-                return
-            }
+            guard let data = data, error == nil else { return }
 
             DispatchQueue.main.async {
-                self.image = UIImage(data: data)
+                self.isValid = true
+                self.data = data
             }
         }.resume()
     }
 
 }
-

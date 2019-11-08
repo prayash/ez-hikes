@@ -11,7 +11,7 @@ import Combine
 
 final class TrailsViewModel: ObservableObject {
 
-    let uriStr = "https://www.hikingproject.com/data/get-trails?lat=40.0274&lon=-105.2519&maxDistance=10&key=200607244-6e26aa0c35f06e2b2879f1ff2dd569f1"
+    let uri = "https://www.hikingproject.com/data/get-trails?lat=40.0274&lon=-105.2519&maxDistance=10&key=200607244-6e26aa0c35f06e2b2879f1ff2dd569f1"
 
     @Published var trails: [Trail] = [Trail]()
     @Published var featured: [Trail] = [Trail]()
@@ -21,7 +21,7 @@ final class TrailsViewModel: ObservableObject {
     }
 
     func fetch() {
-        guard let url = URL(string: uriStr) else { return }
+        guard let url = URL(string: uri) else { return }
 
         URLSession.shared.dataTask(with: url) { (data, response, error) in
             do {
